@@ -29,6 +29,44 @@ This plugin provides robust command completions for the PowerToys Run Plugin Man
 
 Completions are automatically installed with the plugin and work right away.
 
+## Abbreviations Usage
+
+After installing the [`ptr.fish`][repo] plugin, you can inspect the abbreviations with the following command:
+
+```sh
+abbr --show | grep ptra
+```g
+
+### Core Commands
+
+| Abbreviation | Command              |
+|--------------|----------------------|
+| `ptri`       | `ptr init`           |
+| `ptra`       | `ptr add`            |
+| `ptru`       | `ptr update`         |
+| `ptrua`      | `ptr update --all`   |
+| `ptrr`       | `ptr remove`         |
+| `ptrl`       | `ptr list`           |
+
+### Pin Management
+
+| Abbreviation | Command            |
+|--------------|-------------------|
+| `ptrp`       | `ptr pin`         |
+| `ptrpa`      | `ptr pin add`     |
+| `ptrpr`      | `ptr pin remove`  |
+| `ptrpl`      | `ptr pin list`    |
+| `ptrprs`     | `ptr pin reset`   |
+
+### System & Utility
+
+| Abbreviation | Command             |
+|--------------|---------------------|
+| `ptrim`      | `ptr import`        |
+| `ptrrt`      | `ptr restart`       |
+| `ptre`       | `ptr edit`          |
+| `ptrsu`      | `ptr self-update`   |
+
 ## Install
 
 [Oh My Fish][omf]:
